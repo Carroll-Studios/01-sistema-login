@@ -1,57 +1,66 @@
-<div align="center">
+# 🌙 sistema-login — Carroll Studios
 
-<img src="https://img.shields.io/badge/🌙_sistema--login-8B5CF6?style=for-the-badge&logoColor=white" alt="sistema-login" />
 
-### Carroll Studios
 
-<sub>✦ Projeto Final de Programação Orientada a Objetos • IFCE Maranguape • 2026.2 ✦</sub>
+![Java](https://img.shields.io/badge/Java-8B5CF6?style=for-the-badge&logo=openjdk&logoColor=white)
 
-<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=400&size=16&duration=2400&pause=1200&color=C4B5FD&center=true&vCenter=true&width=620&height=30&lines=Portal+de+entrada+da+constela%C3%A7%C3%A3o;Login+seguro%2C+acesso+estelar" alt="Frases sobre o sistema" />
 
-</div>
 
-<br/>
+![Swing](https://img.shields.io/badge/Java_Swing-6D28D9?style=for-the-badge)
 
-<div align="center">✦ · · · ✦ · · · ✦ · · · ✦ · · · ✦</div>
 
-<br/>
 
-<div align="center"><img src="https://img.shields.io/badge/🪐_Sobre%20este%20reposit%C3%B3rio-8B5CF6?style=for-the-badge&logoColor=white" /></div>
 
-<br/>
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-1A1730?style=for-the-badge)
 
-O **sistema-login** é um dos três repositórios obrigatórios da Organização **Carroll Studios**. É o portal de autenticação: valida o acesso do usuário e abre caminho para os outros aplicativos da equipe.
 
-| Repositório | Descrição |
+
+Portal de entrada da **Carroll Studios**: valida o login do usuário e leva para a tela de seleção dos outros apps.
+
+## 📦 Repositórios da Organização
+
+- **sistema-login** 👈 você está aqui
+- [agenda-contatos](../agenda-contatos)
+- [projeto-livre](../projeto-livre)
+
+## 🎯 Objetivos
+
+- Autenticar o usuário com usuário e senha
+- Depois do login, abrir a Tela de Seleção
+- A Tela de Seleção dá acesso aos outros dois apps (ou volta pro login)
+
+## 🔑 Credenciais (exemplo didático)
+
+| Usuário | Senha |
 |---|---|
-| **sistema-login** | 👈 você está aqui — porta de entrada dos apps |
-| [agenda-contatos](../agenda-contatos) | organizador de contatos pessoais |
-| [projeto-livre](../projeto-livre) | jogo educativo espacial |
+| `root` | `toor` |
 
-<br/>
+## 🖥️ Fluxo das telas
+## 🛠️ Tecnologias
 
-<div align="center"><img src="https://img.shields.io/badge/🔑_Credenciais%20de%20Acesso-EC4899?style=for-the-badge&logoColor=white" /></div>
+Java · Java Swing · Persistência local · Git e GitHub
 
-<br/>
+## 🚀 Como executar
 
-> [!NOTE]
-> Para fins didáticos, o sistema usa credenciais estáticas validadas por uma estrutura condicional (`if`).
+1. Abra o projeto no NetBeans (ou outra IDE Java)
+2. Rode a classe `TelaLogin`
+3. Entre com usuário `root` e senha `toor`
 
-| Usuário | Senha | Nível de Acesso |
-| :---: | :---: | :---: |
-| `root` | `toor` | 🛡️ Administrador |
+## 🌿 Branches deste projeto
 
-<br/>
+- `feature/tela-login`
+- `feature/tela-selecao`
 
-<div align="center"><img src="https://img.shields.io/badge/🖥️_Fluxo%20de%20Telas-6D28D9?style=for-the-badge&logoColor=white" /></div>
+Toda mudança entra na `main` só depois de um Pull Request revisado pela equipe.
 
-<br/>
+## 📂 Estrutura de pastas
+## 👥 Equipe
 
-```text
- ┌────────────────┐    🔑 Login válido    ┌─────────────────┐
- │  Tela de Login  ├──────────────────────►│ Tela de Seleção │
- └────────┬────────┘                       └────────┬────────┘
-          ▲                                          │
-          └──────────────── 🚪 Sair / Voltar ────────┘
+| Nome | Função |
+|---|---|
+| Giovanna Sampaio | Design & Front-end |
+| Julia | Front-end |
+| Isabelly Gomes | Backend |
+| Yasmin | Backend |
+| Hadassa Micaele | Banco de Dados |
