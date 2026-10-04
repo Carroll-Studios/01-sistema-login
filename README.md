@@ -18,11 +18,6 @@
 
 O **sistema-login** é um dos três repositórios obrigatórios da Organização **Carroll Studios**. É o portal de autenticação: valida o acesso do usuário e abre caminho para os outros aplicativos da equipe.
 
-| Repositório | Descrição |
-|---|---|
-| **sistema-login** | 👈 você está aqui — porta de entrada dos apps |
-| [agenda-contatos](../agenda-contatos) | organizador de contatos pessoais |
-| [projeto-livre](../projeto-livre) | jogo educativo espacial |
 
 <img src="./resources/images/star-divider-2.svg" width="100%" alt="" />
 
