@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./resources/images/galaxy-header.svg" width="100%" alt="Céu de galáxia com planeta de anel e estrelas" />
+
+<br/>
+
 <img src="https://img.shields.io/badge/🌙_sistema--login-8B5CF6?style=for-the-badge&logoColor=white" alt="sistema-login" />
 
 <sub>✦ Carroll Studios • Projeto Final de Programação Orientada a Objetos • IFCE Maranguape • 2026.2 ✦</sub>
