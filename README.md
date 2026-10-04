@@ -1,136 +1,57 @@
-# 🌌 ✨ Sistema de Login | Carroll Studios
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Carroll_Studios-Constelação-6B21A8?style=for-the-badge&logo=appveyor&logoColor=white" alt="Carroll Studios" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/IDE-NetBeans-1B6AC6?style=for-the-badge&logo=apache netbeans&logoColor=white" alt="NetBeans" />
-  <img src="https://img.shields.io/badge/IFCE-Maranguape-green?style=for-the-badge" alt="IFCE Maranguape" />
-</p>
+<img src="https://img.shields.io/badge/🌙_sistema--login-8B5CF6?style=for-the-badge&logoColor=white" alt="sistema-login" />
 
-<p align="center">
-  <em>Uma constelação de projetos. Cada funcionalidade é um ponto de luz no nosso ecossistema. 🪐✨</em>
-</p>
+### Carroll Studios
 
----
+<sub>✦ Projeto Final de Programação Orientada a Objetos • IFCE Maranguape • 2026.2 ✦</sub>
 
-## 🌌 🪐 Sobre a Carroll Studios & O Projeto
+<br/>
 
-A **Carroll Studios** nasceu como a startup fictícia de nossa equipe, formada por estudantes de Informática do **IFCE Maranguape** para a disciplina de **Programação Orientada a Objetos (POO)**. 
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=400&size=16&duration=2400&pause=1200&color=C4B5FD&center=true&vCenter=true&width=620&height=30&lines=Portal+de+entrada+da+constela%C3%A7%C3%A3o;Login+seguro%2C+acesso+estelar" alt="Frases sobre o sistema" />
 
-Assim como uma constelação, cada projeto da nossa equipe é um ponto de luz que se conecta aos demais. O **Sistema de Login** é o portal de autenticação estelar que dá acesso e organiza a entrada para todo o nosso ecossistema de aplicações.
+</div>
 
----
+<br/>
 
-## 🎯 ☄️ Objetivos do Sistema
+<div align="center">✦ · · · ✦ · · · ✦ · · · ✦ · · · ✦</div>
 
-* 🔑 **Autenticação**: Validar o acesso do usuário com segurança e praticidade.
-* 🛰️ **Navegação Estelar**: Conectar a tela de login à tela de seleção de programas.
-* 🌌 **Integração**: Permitir a transição suave entre a agenda, projetos e módulos da startup.
-* 🔄 **Retorno**: Garantir o fluxo simples de logout e retorno à tela de login.
+<br/>
 
----
+<div align="center"><img src="https://img.shields.io/badge/🪐_Sobre%20este%20reposit%C3%B3rio-8B5CF6?style=for-the-badge&logoColor=white" /></div>
 
-## 🔑 🛸 Credenciais de Acesso
+<br/>
+
+O **sistema-login** é um dos três repositórios obrigatórios da Organização **Carroll Studios**. É o portal de autenticação: valida o acesso do usuário e abre caminho para os outros aplicativos da equipe.
+
+| Repositório | Descrição |
+|---|---|
+| **sistema-login** | 👈 você está aqui — porta de entrada dos apps |
+| [agenda-contatos](../agenda-contatos) | organizador de contatos pessoais |
+| [projeto-livre](../projeto-livre) | jogo educativo espacial |
+
+<br/>
+
+<div align="center"><img src="https://img.shields.io/badge/🔑_Credenciais%20de%20Acesso-EC4899?style=for-the-badge&logoColor=white" /></div>
+
+<br/>
 
 > [!NOTE]
-> Para fins didáticos e de demonstração, o sistema utiliza credenciais estáticas validadas por meio de uma estrutura condicional (`if`).
+> Para fins didáticos, o sistema usa credenciais estáticas validadas por uma estrutura condicional (`if`).
 
 | Usuário | Senha | Nível de Acesso |
 | :---: | :---: | :---: |
-| `root` | `toor` | 🛡️ Administrador / Estelar |
+| `root` | `toor` | 🛡️ Administrador |
 
----
+<br/>
 
-## 🖥️ 🌌 Fluxo de Telas
+<div align="center"><img src="https://img.shields.io/badge/🖥️_Fluxo%20de%20Telas-6D28D9?style=for-the-badge&logoColor=white" /></div>
 
-```text
- ┌────────────────┐         🔑 Login Válido         ┌────────────────┐
- │  Tela de Login ├────────────────────────────────►│Tela de Seleção │
- └────────┬───────┘                                 └───────┬────────┘
-          ▲                                                 │
-          └─────────────────────────────────────────────────┘
-                            🚪 Sair / Voltar
-```
-
-### 🔐 1. Tela de Login
-Interface responsável por coletar usuário e senha, validar as credenciais e direcionar o acesso para o painel principal da **Carroll Studios**.
-
-### 🪐 2. Tela de Seleção (Constelação de Programas)
-Apresentada após a autenticação válida. Funciona como o painel central da nossa constelação de projetos:
-* 📇 **Agenda de Contatos**: App para organizar contatos com favoritos exibidos em forma de constelação *(Em desenvolvimento)*.
-* 🚀 **Jogo Espacial**: Jogo educativo onde a nave se quebra no espaço e é preciso reconstruí-la respondendo perguntas *(Em desenvolvimento)*.
-* 🚪 **Voltar para a Tela de Login** *(Logout)*.
-
----
-
-## 🛠️ 🪐 Tecnologias & Ferramentas
-
-* ☕ **Java** — Linguagem principal orientada a objetos.
-* 🪟 **Java Swing** — Construção e estilização de interfaces gráficas.
-* 🧱 **Apache NetBeans** — IDE utilizada no desenvolvimento.
-* 🐙 **Git & GitHub** — Controle de versão e integração do ecossistema.
-
----
-
-## 🌿 🛰️ Desenvolvimento Colaborativo
-
-O projeto utiliza branches específicas para cada módulo e funcionalidade:
+<br/>
 
 ```text
-main 🌟 (constelação principal)
- │
- ├── 🛰️️ feature/tela-login
- │
- └── 🛰️ feature/tela-selecao
-```
-
-> [!IMPORTANT]
-> As novas implementações desenvolvidas nas branches são integradas à `main` exclusivamente por meio de **Pull Requests (PRs)** revisados pelos membros da **Carroll Studios**.
-
----
-
-## 📂 🌠 Estrutura de Arquivos
-
-```text
-sistema-login/
-├── 📄 LICENSE
-├── 📄 README.md
-├── 🙈 .gitignore
-├── 📁 docs/           # Documentação técnica e guiada
-├── 📁 resources/      # Recursos visuais e ícones
-├── 📁 src/            # Código-fonte Java Swing
-└── 📁 support/        # Arquivos de suporte e testes
-```
-
----
-
-## 👥 🚀 Integrantes — Carroll Studios
-
-<p align="left">
-  <i>Conheça as mentes por trás da constelação Carroll Studios:</i>
-</p>
-
-| Membro | Função / Papel | GitHub |
-| :--- | :--- | :---: |
-| 👩‍🚀 **Giovanna Sampaio** | Design & Front-end | [@GiovannaSampaio](https://github.com) |
-| 👩‍🚀 **Hadassa Micaele** | Banco de Dados | [@HadassaMicaele](https://github.com) |
-| 👩‍🚀 **Isabelly Gomes** | Backend | [@IsabellyGomes](https://github.com) |
-| 👩‍🚀 **Julia** | Front-end | [@Julia](https://github.com) |
-| 👩‍🚀 **Yasmin** | Backend | [@Yasmin](https://github.com) |
-
----
-
-## 📚 🔭 Disciplina & Instituição
-
-* **Disciplina:** Programação Orientada a Objetos (POO) 💻
-* **Curso:** Técnico em Informática 🎓
-* **Instituição:** Instituto Federal de Educação, Ciência e Tecnologia do Ceará — **IFCE Maranguape** 🏛️
-* **Semestre:** 2026.2 🗓️️
-
----
-
-<p align="center">
-  <i>✨ Carroll Studios — Uma constelação de código, design e inovação. ✨</i>
-</p>
-`` firewall
-```
+ ┌────────────────┐    🔑 Login válido    ┌─────────────────┐
+ │  Tela de Login  ├──────────────────────►│ Tela de Seleção │
+ └────────┬────────┘                       └────────┬────────┘
+          ▲                                          │
+          └──────────────── 🚪 Sair / Voltar ────────┘
