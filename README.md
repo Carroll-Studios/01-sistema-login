@@ -66,6 +66,36 @@ O **sistema-login** é um dos três repositórios obrigatórios da Organização
  └────────┬────────┘                       └────────┬────────┘
           ▲                                          │
           └──────────────── 🚪 Sair / Voltar ────────┘
+
+🔐 Tela de Login
+Coleta usuário e senha, valida as credenciais e libera o acesso ao painel principal.
+
+🪐 Tela de Seleção
+Painel central com acesso a:
+📇 Agenda de Contatos · 🚀 Jogo Espacial · 🚪 Voltar (logout)
+
+
+
+☕ Java  •  🪟 Java Swing  •  💾 Persistência local  •  🧱 NetBeans  •  🐙 Git & GitHub
+
+Carregar imagem
+
+Clone este repositório.
+Abra a pasta do projeto no NetBeans (ou outra IDE Java de sua preferência).
+Execute a classe principal TelaLogin.
+Entre com o usuário root e a senha toor.
+Após o login, a Tela de Seleção será aberta.
+Carregar imagem
+Carregar imagem
+
+main 🌟
+ ├── 🛰️ feature/tela-login
+ └── 🛰️ feature/tela-selecao
+[!IMPORTANT]
+Implementações nas branches só entram na main via Pull Request revisado pela equipe. Commits pequenos, frequentes e com mensagens claras.
+Carregar imagem
+Carregar imagem
+
 sistema-login/
 ├── README.md
 ├── LICENSE
@@ -80,3 +110,28 @@ sistema-login/
 │   ├── diagrams/
 │   └── presentations/
 └── support/
+
+Giovanna Sampaio
+Design & Front-end
+Carregar imagem
+Carregar imagem
+Hadassa Micaele
+Banco de Dados
+Carregar imagem
+Carregar imagem
+Isabelly Gomes
+Backend
+Carregar imagem
+Carregar imagem
+Julia
+Front-end
+Carregar imagem
+Carregar imagem
+Yasmin
+Backend
+Carregar imagem
+
+✦ Carroll Studios ✦
+Carregar imagem
+```
+
